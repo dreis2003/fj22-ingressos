@@ -32,9 +32,9 @@
 				<ul class="nav navbar-nav navbar-right">
 
 
-					<li><a href="/filmes">Filmes</a></li>
-					<li><a href="/salas">Salas</a></li>
-					<li><a href="/filme/em-cartaz">Comprar</a></li>
+					<li><a href="/admin/filme">Filmes</a></li>
+					<li><a href="/admin/salas">Salas</a></li>
+					<li><a href="/filme/em-cartaz">Em Cartaz</a></li>
 
 
 					<sec:authorize access="!isAuthenticated()">

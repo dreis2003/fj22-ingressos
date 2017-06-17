@@ -37,7 +37,11 @@ public class Ingresso {
 		this.lugar = lugar;
 	}
 	
-	protected Ingresso() {}
+	public Ingresso() {}
+	
+	public BigDecimal getPrecoComDesconto(){
+		return tipoDeIngresso.aplicaDesconto(preco);
+	}
 
 	public Sessao getSessao() {
 		return sessao;
